@@ -5,4 +5,4 @@ import qrcode
 site = input("Enter web address for QR code generation\n")
 
 image = qrcode.make(site)
-image.save(f'qr{site}.png', 'PNG')
+image.save(f'qr{site}.png', 'png')
